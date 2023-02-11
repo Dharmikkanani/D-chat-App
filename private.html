@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-chat App</title>
+    <link rel="icon" type="image/x-icon" href="./img/61yp2FTrSuL.png">
+    <link rel="stylesheet" href="private.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="leftSide">
+            <!-- Header -->
+            <div class="header">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><img src="./img/img-01.jpg" style="width: 40px; height: 40px;" class="cover"></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <div class="top1">
+                        <ul>
+                            <li>
+                                <img src="./img/img-01.jpg" alt="" class="cover2">
+                                <span class="text1">DJK<br>+91 91XXXXXX11</span>
+                            </li>
+                            <li>
+                                <img src="./img/1621596266869.png" alt="" class="cover1">
+                                <img src="./img/Lion.jpg" alt="" class="cover3">
+                                <span class="text2">DK<br>+91 71XXXXXX10</span>
+                            </li>
+                        </ul>
+                      </div>
+                      <a href="#">
+                        <img src="./img/img-01.jpg" class="cover">
+                        <span class="i-text"><b>DJK</b><br>+91 91XXXXXX11</span>
+                        <ion-icon name="checkbox-outline" class="check"></ion-icon>
+                      </a>
+                      <a href="index2.html">
+                        <img src="./img/Lion.jpg" class="cover">
+                        <span class="i-text"><b>DK</b><br>+91 71XXXXXX10</span>
+                        <ion-icon name="square-outline" class="check"></ion-icon>
+                      </a>
+                      <a href="#">
+                        <img src="./img/1621596266869.png" class="cover4">
+                        <span class="i-text"><b>Dharmik Kanani</b><br>+91 63XXXXXX11</span>
+                        <ion-icon name="square-outline" class="check"></ion-icon>
+                      </a>
+                      <a href="#" style="border: 2px solid black; border-radius: 15px;" ><ion-icon name="add-outline" class="icon3"></ion-icon><span class="Atext">Add Account</span></a>
+                    </div>
+                </div>
+                <ul class="nav_icons">
+                    <li><ion-icon name="scan-circle-outline" class="ion"></ion-icon></li>
+                    <li>
+                        <ion-icon name="notifications-circle-outline" class="ion2"></ion-icon>
+                        <div class="bell"><b>2</b></div>
+                    </li>
+                </ul>
+                <div class="dropsett">
+                    <button onclick="myFunction()" class="sett-btn"><ion-icon name="ellipsis-vertical-circle"></ion-icon></button>
+                    <div id="myDropsett" class="sett-nav">
+                        <ul>
+                            <li><a href="#"><ion-icon name="home" class="icon5"></ion-icon><p class="text8">Home</p></a></li>
+                            <li><!--button onclick="Darkfunction()"--><a href="#"><ion-icon name="contrast" class="icon5"></ion-icon><p class="text8">Theme</p></a><!--/button--></li>
+                            <li><a href="#"><ion-icon name="globe-outline" class="icon5"></ion-icon><p class="text8">Language</p></a></li>
+                            <li><a href="#"><ion-icon name="information-circle-outline" class="icon5"></ion-icon><p class="text8">info</p></a></li>
+                            <li><a href="#"><ion-icon name="help-circle-outline" class="icon5"></ion-icon><p class="text8">Help</p></a></li>
+                            <li><a href="#"><ion-icon name="settings-outline" class="icon5"></ion-icon><p class="text8">Setting</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+            <!-- Search Chat -->
+            <div class="search_chat">
+                <div>
+                    <input type="text" placeholder="Search or start new chat">
+                    <ion-icon name="search-outline"></ion-icon> 
+                </div>                
+            </div>
+            <!-- CHAT LIST -->
+            <div class="chatlist">
+                <div class="back">
+                    <a href="index.html"><ion-icon name="arrow-back-sharp"></ion-icon></a>
+                </div>
+                <div class="pin">
+                    <i class="ri-lock-password-line"></i>
+                    <span class="pintext">Enter PIN</span>
+                </div>
+                <div class="remove1">
+                    <ul class="remove">
+                        <li><ion-icon name="ellipse"></ion-icon></li>
+                        <li><ion-icon name="ellipse-outline"></ion-icon></li>
+                        <li><ion-icon name="ellipse-outline"></ion-icon></li>
+                        <li><ion-icon name="ellipse-outline"></ion-icon></li>
+                    </ul>
+                </div>
+                <div class="keypad">
+                    <ul class="keypin">
+                            <li><a href="#"><i class="ri-number-1"></i></a></li>
+                            <li><a href="#"><i class="ri-number-2"></i></a></li>
+                            <li><a href="#"><i class="ri-number-3"></i></a></li>
+                    </ul>
+                    <ul class="keypin">
+                        <li><a href="#"><i class="ri-number-4"></i></a></li>
+                        <li><a href="#"><i class="ri-number-5"></i></a></li>
+                        <li><a href="#"><i class="ri-number-6"></i></a></li>
+                    </ul>
+                    <ul class="keypin">
+                        <li><a href="#"><i class="ri-number-7"></i></a></li>
+                        <li><a href="#"><i class="ri-number-8"></i></a></li>
+                        <li><a href="#"><i class="ri-number-9"></i></a></li>
+                    </ul>
+                    <ul class="keypin">
+                        <li><a href="#"><i class="ri-delete-back-2-line"></i></a></li>
+                        <li><a href="#"><i class="ri-number-0"></i></a></li>
+                        <li><a href="#"><i class="ri-check-line"></i></a></li>
+                    </ul>
+                </div>
+
+                <!--div class="pin-login" id="mainPinLogin">
+                    <input type="password" readonly class="pin-login__text">
+                    <div class="pin-login__numpad"></div>
+                </div-->
+            </div>
+            <!--Footer-->
+            <div class="footer">
+                <ul>
+                    <li class="list">
+                        <a href="index.html"><ion-icon name="chatbox-outline" class="icon"></ion-icon></a>
+                        <span class="text">Chat</span>
+                    </li>
+                    <li class="list">
+                        <a href="contacts.htm"><ion-icon name="call-outline" class="icon"></ion-icon></a>
+                        <span class="text">Calls</span>
+                    </li>
+                    <li class="list has-child">
+                        <a href="#"><ion-icon name="add-circle-outline" class="icon"></ion-icon></a>
+                        <span class="text">Add</span>
+                        <ul class="sub-menu">
+                            <li><a href="#"><ion-icon name="person-add-outline"></ion-icon><span class="subtext">Add Contacts</span></a></li>
+                            <li><a href="#"><ion-icon name="people-outline"></ion-icon><span class="subtext">Add Groups</span></a></li>
+                            <li><a href="#"><ion-icon name="megaphone-outline"></ion-icon><span class="subtext">New Broadcast</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="list">
+                        <a href="camera.htm"><ion-icon name="camera-outline" class="icon"></ion-icon></a>
+                        <span class="text">Camera</span>
+                    </li>
+                    <li class="list active">
+                        <a href="#"><ion-icon name="document-lock-outline" class="icon"></ion-icon></a>
+                        <span class="text">Private Contacts</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    //list active scripet//
+const list = document.querySelectorAll('.list');
+    function activeLink(){
+      list.forEach((item) =>
+      item.classList.remove('active'));
+      this.classList.add('active')
+    }
+  list.forEach((item) => 
+  item.addEventListener('click' , activeLink));
+
+//User-img scripet//
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("myDropsett").classList.toggle("show3");
+  }  
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn img')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+    if (!event.target.matches('.sett-btn ion-icon')) {
+      var dropdowns = document.getElementsByClassName("sett-nav");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show3')) {
+          openDropdown.classList.remove('show3');
+        }
+      }
+    }
+  }
+
+  class PinLogin {
+    constructor ({el, loginEndpoint, redirectTo, maxNumbers = 4}) {
+        this.el = {
+            main: el,
+            numPad: el.querySelector(".pin-login__numpad"),
+            textDisplay: el.querySelector(".pin-login__text")
+        };
+
+        this.loginEndpoint = loginEndpoint;
+        this.redirectTo = redirectTo;
+        this.maxNumbers = maxNumbers;
+        this.value = "";
+
+        this._generatePad();
+    }
+
+    _generatePad() {
+        const padLayout = [
+            "1", "2", "3",
+            "4", "5", "6",
+            "7", "8", "9",
+            "backspace", "0", "done"
+        ];
+
+        padLayout.forEach(key => {
+            const insertBreak = key.search(/[369]/) !== -1;
+            const keyEl = document.createElement("div");
+
+            keyEl.classList.add("pin-login__key");
+            keyEl.classList.toggle("material-icons", isNaN(key));
+            keyEl.textContent = key;
+            keyEl.addEventListener("click", () => { this._handleKeyPress(key) });
+            this.el.numPad.appendChild(keyEl);
+
+            if (insertBreak) {
+                this.el.numPad.appendChild(document.createElement("br"));
+            }
+        });
+    }
+
+    _handleKeyPress(key) {
+        switch (key) {
+            case "backspace":
+                this.value = this.value.substring(0, this.value.length - 1);
+                break;
+            case "done":
+                this._attemptLogin();
+                break;
+            default:
+                if (this.value.length < this.maxNumbers && !isNaN(key)) {
+                    this.value += key;
+                }
+                break;
+        }
+
+        this._updateValueText();
+    }
+
+    _updateValueText() {
+        this.el.textDisplay.value = "_".repeat(this.value.length);
+        this.el.textDisplay.classList.remove("pin-login__text--error");
+    }
+
+    _attemptLogin() {
+        if (this.value.length > 0) {
+            fetch(this.loginEndpoint, {
+                method: "post",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                },
+                body: `pincode=${this.value}`
+            }).then(response => {
+                if (response.status === 200) {
+                    window.location.href = this.redirectTo;
+                } else {
+                    this.el.textDisplay.classList.add("pin-login__text--error");
+                }
+            })
+        }
+    }
+}
+
+new PinLogin({
+    el: document.getElementById("mainPinLogin"),
+    loginEndpoint: "login.php",
+    redirectTo: "index.html"
+});
+</script>
+
+</body>
+</html>

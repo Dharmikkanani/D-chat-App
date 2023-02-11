@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-chat App</title>
+    <link rel="icon" type="image/x-icon" href="./img/61yp2FTrSuL.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        .chatlist .block .message_p .date{ margin-left: 5px; font-weight: 200; font-size: 15px; color: #555;}
+        .chatlist .block .message_p i{display: flex; align-items: center; text-align: center; width: 12px; height: 12px; line-height: 12px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leftSide">
+            <!-- Header -->
+            <div class="header">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><img src="./img/img-01.jpg" style="width: 40px; height: 40px;" class="cover"></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <div class="top1">
+                        <ul>
+                            <li>
+                                <img src="./img/img-01.jpg" alt="" class="cover2">
+                                <span class="text1">DJK<br>+91 91XXXXXX11</span>
+                            </li>
+                            <li>
+                                <img src="./img/1621596266869.png" alt="" class="cover1">
+                                <img src="./img/Lion.jpg" alt="" class="cover3">
+                                <span class="text2">DK<br>+91 71XXXXXX10</span>
+                            </li>
+                        </ul>
+                      </div>
+                      <a href="#">
+                        <img src="./img/img-01.jpg" class="cover">
+                        <span class="i-text"><b>DJK</b><br>+91 91XXXXXX11</span>
+                        <ion-icon name="checkbox-outline" class="check"></ion-icon>
+                      </a>
+                      <a href="#">
+                        <img src="./img/Lion.jpg" class="cover">
+                        <span class="i-text"><b>DK</b><br>+91 71XXXXXX10</span>
+                        <ion-icon name="square-outline" class="check"></ion-icon>
+                      </a>
+                      <a href="#">
+                        <img src="./img/1621596266869.png" class="cover4">
+                        <span class="i-text"><b>Dharmik Kanani</b><br>+91 63XXXXXX11</span>
+                        <ion-icon name="square-outline" class="check"></ion-icon>
+                      </a>
+                      <a href="#" style="border: 2px solid black; border-radius: 15px;" ><ion-icon name="add-outline" class="icon3"></ion-icon><span class="Atext">Add Account</span></a>
+                    </div>
+                </div>
+                <ul class="nav_icons">
+                    <li><ion-icon name="scan-circle-outline" class="ion"></ion-icon></li>
+                    <li>
+                        <ion-icon name="notifications-circle-outline" class="ion2"></ion-icon>
+                        <div class="bell"><b>2</b></div>
+                    </li>
+                    <li><ion-icon name="ellipsis-vertical" class="ion"></ion-icon></li>
+                </ul>
+            </div>
+            <!-- Search Chat -->
+            <div class="search_chat">
+                <div>
+                    <input type="text" placeholder="Search or start new chat">
+                    <ion-icon name="search-outline"></ion-icon> 
+                </div>                
+            </div>
+            <!-- CHAT LIST -->
+            <div class="chatlist">
+                <div class="block">
+                    <div class="imgBox">
+                        <img src="./img/img02.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Jhon Doe</h4>
+                            <ion-icon name="call"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-left-down-line"><span class="date">10:56</span></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block unread">
+                    <div class="imgBox">
+                        <img src="./img/img-03.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Andre</h4>
+                            <ion-icon name="videocam"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-left-down-line"><span class="date">12:34</span></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block unread">
+                    <div class="imgBox">
+                        <img src="./img/img-04.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Olivia</h4>
+                            <ion-icon name="call"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-right-up-line" style="color: red;"><span class="date" style="color: red;">Yesterday</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imgBox">
+                        <img src="./img/img-05.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Parker</h4>
+                            <ion-icon name="call"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-right-up-line"><span class="date">Yesterday</span></i>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imgBox">
+                        <img src="./img/img-06.jpeg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Zoey</h4>
+                            <ion-icon name="videocam"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-left-down-line"><span class="date">18/01/22</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imgBox">
+                        <img src="./img/Lion.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Josh</h4>
+                            <ion-icon name="videocam"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-right-up-line" style="color: red;"><span class="date" style="color: red;">10/01/22</span></i> 
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imgBox">
+                        <img src="./img/temple.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Dian</h4>
+                            <ion-icon name="call"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-left-down-line" style="color: red;"><span class="date" style="color: red;">11/01/22</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imgBox">
+                        <img src="./img/Parsuram.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Sam</h4>
+                            <ion-icon name="call"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-right-up-line"><span class="date">Yesterday</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imgBox">
+                        <img src="./img/temple.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Junior</h4>
+                            <ion-icon name="call"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-left-down-line"><span class="date">16/01/22</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imgBox">
+                        <img src="./img/img-03.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Zoey</h4>
+                            <ion-icon name="videocam"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-right-up-line" style="color: red;"><span class="date" style="color: red;">18/01/22</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imgBox">
+                        <img src="./img/Lion.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Josh</h4>
+                            <ion-icon name="videocam"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-right-up-line"><span class="date">14/01/22</span></i> 
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imgBox">
+                        <img src="./img/img-04.jpg" class="cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Dian</h4>
+                            <ion-icon name="videocam"></ion-icon>
+                        </div>
+                        <div class="message_p">
+                            <i class="ri-arrow-left-down-line" style="color: red;"><span class="date" style="color: red;">10/11/22</span></i>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Footer-->
+            <div class="footer">
+                <ul>
+                    <li class="list">
+                        <a href="index.html"><ion-icon name="chatbox-outline" class="icon"></ion-icon></a>
+                        <span class="text">Chat</span>
+                    </li>
+                    <li class="list active">
+                        <a href="#"><ion-icon name="call-outline" class="icon"></ion-icon></a>
+                        <span class="text">Calls</span>
+                    </li>
+                    <li class="list has-child">
+                        <a href="#"><ion-icon name="add-circle-outline" class="icon"></ion-icon></a>
+                        <span class="text">Add</span>
+                        <ul class="sub-menu">
+                            <li><a href="#"><ion-icon name="person-add-outline"></ion-icon><span class="subtext">Add Contacts</span></a></li>
+                            <li><a href="#"><ion-icon name="people-outline"></ion-icon><span class="subtext">Add Groups</span></a></li>
+                            <li><a href="#"><ion-icon name="megaphone-outline"></ion-icon><span class="subtext">New Broadcast</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="list">
+                        <a href="camera.htm"><ion-icon name="camera-outline" class="icon"></ion-icon></a>
+                        <span class="text">Camera</span>
+                    </li>
+                    <li class="list">
+                        <a href="private.html"><ion-icon name="document-lock-outline" class="icon"></ion-icon></a>
+                        <span class="text">Private Contacts</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="rightSide">
+            <div class="header">
+                <div class="imgText">
+                    <div class="userimg">
+                        <img src="./img/temple.jpg" alt="" class="cover">
+                    </div>
+                    <h4>Jhon Doe <br><span>online</span></h4>
+                </div>
+                <ul class="nav_icons">
+                    <li><ion-icon name="search-outline"></ion-icon></li>
+                    <li><i class="ri-chat-settings-line"></i></li>
+                </ul>
+            </div>
+
+            <!-- CHAT-BOX -->
+            <div class="chatbox" style="background-image: url('./img/tile bg.jpg'); background-size: 100% 100%;">
+                <div class="message my_msg">
+                    <p>Hi <br><span>12:18</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p>Hey <br><span>12:18</span></p>
+                </div>
+                <div class="message my_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><span>12:15</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><span>12:15</span></p>
+                </div>
+                <div class="message my_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid fugiat accusamus dolore qui vitae ratione optio sunt <br><span>12:15</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><span>12:15</span></p>
+                </div>
+                <div class="message my_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur <br><span>12:15</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message my_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message my_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message my_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message my_msg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><span>12:15</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p>How are you doing?<br><span>10:56</span></p>
+                </div>
+            </div>
+            
+            <!-- CHAT INPUT -->
+            <div class="chat_input">
+                <ion-icon name="happy-outline"></ion-icon>
+                <div class="drop-up">
+                    <button onclick="myfunction()" class="dropup-btn"><i class="ri-attachment-2"></i></button>
+                    <div id="myDropup" class="dropup-content">
+                        <ul>
+                            <li><a href="#"><ion-icon name="image-outline" class="attach1"></ion-icon> Photo or Video</a></li>
+                            <li><a href="#"><ion-icon name="document-outline" class="attach1"></ion-icon> Document</a></li>
+                            <li><a href="#"><ion-icon name="mic-outline" class="attach1"></ion-icon> Recording</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <input type="text" placeholder="Type a message">
+                <div class="plane"><i class="ri-send-plane-2-fill"></i></div>
+            </div>
+        </div>
+    </div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="index.js"></script>
+<script>
+    function myfunction() {
+  document.getElementById("myDropup").classList.toggle("show2");
+}  
+button.onclick = function(event) {
+    if (!event.target.matches('.dropup-btn i')) {
+      var dropdowns = document.getElementsByClassName("dropup-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+       var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show2')) {
+          openDropdown.classList.remove('show2');
+        }
+      }
+    }
+}
+</script>
+</body>
+</html>
